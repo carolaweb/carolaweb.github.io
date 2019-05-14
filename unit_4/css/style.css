@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 *{
 	padding: 0;
 	margin: 0;
@@ -6,7 +7,7 @@ body, html {
     height: 100%;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
 }
 header{
@@ -20,9 +21,25 @@ footer{
 	padding: 20px;
 	color: #FFF;
 }
+h2{
+	font-family: 'ROboto+Slab',sans-serif;
+	font-size: 70px;
+	color: #526f00;
+}
+h3{
+	font-family: 'ROboto+Slab',sans-serif;
+	font-size: 70px;
+	color: #526f00;
+}
+.yellow{
+	color: #afdf00;
+}
 .hero-image{
 	width: 100%;
 }
 .hero-text{
 	padding: 20px;
+}
+.whyus{
+	background-color: #526f00;
 }
