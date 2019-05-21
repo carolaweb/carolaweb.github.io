@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 *{
-*{
 	padding: 0;
 	margin: 0;
 }
@@ -12,20 +11,27 @@ body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
 }
-header{
-	padding: 20px;
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
+nav{background-color: #E8C66A;}
 nav a{
 	margin-left: 20px;
 	text-decoration: none;
 	color: #4a6300;
-	font-size: 30px;
+	font-size: 1.9em;
 }
-main{
-	padding: 20px;
+article{
+	background-color: #E89C6C;
+	width: 700px;
+}
+section{
+	background-color: #FFE2B8;
 }
 footer{
-	background-color: #5d7d00;
+	background-color: #FF957E;
 	padding: 20px;
 	color: #FFF;
 }
@@ -34,18 +40,18 @@ button{
 	width: 320px;
 	height: 40px;
 	font-family: 'Roboto Slab',sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	color: #4a6300;
 }
 h2{
 	font-family: 'Roboto Slab',sans-serif;
-	font-size: 70px;
+	font-size: 4.38em;
 	font-weight: bold;
 	color: #526f00;
 }
 h3{
 	font-family: 'Roboto Slab',sans-serif;
-	font-size: 70px;
+	font-size: 4.38em;
 	color: #526f00;
 }
 .yellow{
@@ -53,6 +59,7 @@ h3{
 }
 .white{
 	color: white;
+	width: 500px;
 }
 .hero-image{
 	width: 100%;
