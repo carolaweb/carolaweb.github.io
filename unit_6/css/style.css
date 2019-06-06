@@ -28,7 +28,6 @@ nav{
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: 300;
 	float: right;
-	background-color: #E8C66A;
 	clear: both;
 }
 nav a{
@@ -115,8 +114,10 @@ h3{
 .addressfooter{
 	padding: 2%;
 	float: left;
-	width: 25%;
+	width: 28%;
 }
 .addressfooter > nav a {
+	font-family: 'Roboto' sans-serif;
 	font-size: 18px;
+	color: #FFF;
 }
