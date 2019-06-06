@@ -12,17 +12,7 @@ body {
 	line-height: 1.5;
 }
 header {
-    background-color: #FFED74;
-    border: 1px black solid;
     padding: 20px;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
 nav{
 	font-family: 'Roboto Slab', sans-serif;
@@ -81,6 +71,17 @@ h3{
 	font-size: 4.38em;
 	color: #526f00;
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.hero-image > img {
+	width: 100%;
+}
 .whyus{
 	background-color: #526f00;
 	border: 1px black solid;
@@ -100,13 +101,6 @@ h3{
 .right{
 	float:right;
 }
-.hero-image{
-	width: 100%;
-}
-.hero-text{
-	padding: 20px;
-}
-
 .namereview{
 	font-weight: bold;
 	color: #526f00;
