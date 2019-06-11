@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
 *{
 	padding: 0;
 	margin: 0;
@@ -10,21 +11,29 @@ body, html {
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
+	font-size: 18px;
 }
 header {
-    padding: 20px;
+    padding: 40px;
 }
 nav{
-	font-family: 'Roboto Slab', sans-serif;
-	font-weight: 300;
+	padding: 5px 15px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;	
+	background-color: #526f00;
 	float: right;
 	clear: both;
 }
 nav a{
-	margin-left: 20px;
+	margin: 15px;
 	text-decoration: none;
-	color: #4a6300;
-	font-size: 1.9em;
+	color: #afdf00;
+	font-size: 1.7em;
+}
+hr{
+	height: 8px;
+	background-color: #afdf00;
+	border: none;
 }
 article{
 	float: left;
@@ -34,13 +43,9 @@ article{
 	height: 400px;
 	background-color: #E89C6C;	
 }
-section{
-	background-color: #FFE2B8;
-}
-section > img {
-	margin: 1%;
-	width: 22%;
-}
+
+
+
 footer{
 	background-color: #5e7e00;
 	padding: 20px;
@@ -54,22 +59,43 @@ button{
 	margin: auto;
 	border: none;
 	background-color: #afdf00;
-	font-family: 'Roboto Slab',sans-serif;
+	font-family: 'Roboto Slab',serif;
 	font-weight: bold;
 	font-size: 3em;
 	color: #4a6300;
 }
 h2{
-	font-family: 'Roboto Slab',sans-serif;
-	font-size: 4.38em;
+	font-family: 'Roboto Slab',serif;
+	font-size: 4em;
 	font-weight: bold;
 	color: #526f00;
 	float: right;
 }
+.whyus > img{
+	float: left;
+	margin: 50px;
+}
+.whytext > h3{
+		margin-bottom: 70px;
+	font-weight: 100;
+	color: #afdf00;
+}
 h3{
-	font-family: 'Roboto Slab',sans-serif;
-	font-size: 4.38em;
+	font-family: 'Roboto Slab',serif;
+	font-size: 3.38em;
 	color: #526f00;
+}
+.portfolio > h3{
+	margin:70px 0 0 70px;
+	font-weight: 100;
+}
+.portfolio > hr{
+	margin: 10px 70px; 
+	background-color: #526f00;
+	height: 2px; 
+}
+.portfolio > img{
+	max-width: 20%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -87,12 +113,10 @@ h3{
 	border: 1px black solid;
     padding: 20px;
 }
-.whytext > h3 {
-	color: #afdf00;
-}
 .whytext{
+	margin: 65px 70px 0 0;
 	color: #FFF;
-	width: 50%;
+	width: 45%;
 	float: right;
 }
 .left{
