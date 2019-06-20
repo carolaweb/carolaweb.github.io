@@ -101,7 +101,7 @@ h4 + hr{
 }
 .whyus{
 	background-color: #526f00;
-    padding: 1.8em;
+    padding: 2%;
     height: 14em;
 }
 .whytext{
@@ -188,6 +188,9 @@ article > p {
 .addressfooter ul {
 	list-style-type: none;
 }
+.addressfooter a{
+	color: #FFF;
+}
 .first{
 	float: left;
 	margin: 1em;
@@ -213,4 +216,29 @@ article > p {
 	padding-top: 1.5em;
 	font-size: 0.7em;
 	text-align: center;
+}
+
+@media screen and (max-width: 975px) {
+body {
+font-size: 16px;
+}
+article{
+	float: none;
+	width: 90%;
+}
+}
+
+@media screen and (min-width: 360px) and (max-width: 975px) {
+.whyus > img{
+	display: none;
+}
+.whytext{
+	width:90%;
+}
+}
+
+@media screen and (max-width: 360px) {
+.whyus > img{
+	display: none;
+}
 }
