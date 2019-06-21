@@ -19,6 +19,9 @@ header {
     float: left;
     width: 100%;
 }
+.right{
+	float: right;
+}
 nav{
 	padding: 0.3em 0.9em;
 	font-family: 'Roboto Slab', serif;
@@ -56,7 +59,9 @@ footer > img{
 }
 button{
 	padding: 1% 5%;
-	margin-top: 200px;
+	position: absolute;
+	top: 75%;
+ 	right: 32%;
 	border: none;
 	background-color: #afdf00;
 	font-family: 'Roboto Slab',serif;
@@ -123,6 +128,7 @@ h4 + hr{
 }
 .portfolio{
 	clear: both;
+	width: 100%;
 	background-color: #526f00; 
 }
 .portfolio > h3{
@@ -137,8 +143,7 @@ h4 + hr{
 }
 .gallery > img{
 	padding-top: 4.375em; 
-	width: 22%;
-	padding: .5em;
+	width: 24%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -191,6 +196,9 @@ article > p {
 .addressfooter a{
 	color: #FFF;
 }
+.addressfooter p{
+	margin-top: 0.75em;
+}
 .first{
 	float: left;
 	margin: 1em;
@@ -226,6 +234,12 @@ article{
 	float: none;
 	width: 90%;
 }
+}
+@media screen and (max-width: 935px) {
+body {
+font-size: 16px;
+}
+
 }
 
 @media screen and (min-width: 360px) and (max-width: 975px) {
