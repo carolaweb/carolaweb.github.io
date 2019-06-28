@@ -256,6 +256,12 @@ button{
 }
 }
 
+@media screen and (max-width: 824px) {
+
+
+
+}
+
 @media screen and (min-width: 360px) and (max-width: 975px) {
 .whyus > img{
 	display: none;
