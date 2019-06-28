@@ -43,9 +43,9 @@ hr{
 }
 article{
 	float: left;
-	margin: 1.25em 1.8em;
+	margin: 2% 2%;
 	padding: 4%;
-	width: 42%;
+	width: 46%;
 	height: 340px;
 	background-color: #dfdfdf;	
 }
@@ -137,12 +137,12 @@ h4 + hr{
 	color: #afdf00;
 }
 .gallery{
-	width: 600px;
-
+	width: 100%;
 	margin: auto;
 }
 .gallery > img{
-	padding-top: 4.375em; 
+	margin-top: 4%;
+	padding: 0.5em; 
 	width: 25%;
 	float: left;
 }
@@ -162,6 +162,10 @@ h4 + hr{
 .reviews > h3{
 	margin: 2em 0 0 1.5em;
 	font-weight: 100;
+}
+.content{
+	width: 100%;
+	margin: auto;
 }
 article > img {
 	float: left;
@@ -234,13 +238,22 @@ font-size: 16px;
 article{
 	float: none;
 	width: 90%;
+	margin: 3% auto;
+}
+.gallery > img{
+	width: 50%;
 }
 }
 @media screen and (max-width: 935px) {
 body {
 font-size: 16px;
 }
-
+button{
+ 	right: 25%;
+}
+.right{
+	float: left;
+}
 }
 
 @media screen and (min-width: 360px) and (max-width: 975px) {
