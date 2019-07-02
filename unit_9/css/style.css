@@ -60,7 +60,7 @@ footer > img{
 	float: right;
 }
 button{
-	padding: 1% 5%;
+	padding: 0.2em 1.2em;
 	display: inline-block;
 	/*position: absolute;
 	top: 75%;
@@ -296,7 +296,7 @@ h2{
 }
 button{
 	font-size: 2.5em;
-	padding: 2% 8%;
+	padding: 0.1em 0.9em;
 }
 .addressfooter{
 	width: 100%;
