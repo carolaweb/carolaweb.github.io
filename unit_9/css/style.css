@@ -74,10 +74,12 @@ button{
 	font-weight: bold;
 	font-size: 3em;
 	color: #4a6300;
+	cursor: pointer;
 }
 button a{
 	color: #4a6300;
 	text-decoration: none;
+
 }
 h2{
 	font-family: 'Roboto Slab',serif;
