@@ -59,6 +59,9 @@ footer{
 footer > img{
 	float: right;
 }
+footer p > a{
+	color: #afdf00;
+}
 button{
 	padding: 0.2em 1.2em;
 	display: inline-block;
@@ -105,11 +108,10 @@ h4 + hr{
 	background-position: bottom;
 	background-repeat: no-repeat;
 	height: 95vh;
-	padding: 5em;
 }
 .hero-text{
 	text-align: center;
-	padding-top: 450px;
+	padding-top: 550px;
 }
 .whyus{
 	background-color: #526f00;
@@ -139,7 +141,7 @@ h4 + hr{
 	background-color: #526f00; 
 }
 .portfolio > h3{
-	margin: 3em 0 0 1.5em;
+	margin: 3em 0 0 1.1em;
 	font-weight: 100;
 	color: #afdf00;
 }
@@ -167,7 +169,7 @@ h4 + hr{
 	padding-top: 2em;
 }
 .reviews > h3{
-	margin: 2em 0 0 1.5em;
+	margin: 2em 0 0 1.1em;
 	font-weight: 100;
 }
 .content{
@@ -210,6 +212,13 @@ article > p {
 }
 .addressfooter p{
 	margin-top: 0.75em;
+}
+.phonenumber{
+	margin-top: 0.4em;
+	margin-bottom: -0.5em;
+	font-size: 1.6em;
+	color: #1C3613;
+	font-weight: bold;
 }
 .first{
 	float: left;
@@ -259,6 +268,7 @@ nav a{
 article{
 	float: none;
 	width: 90%;
+	height: 280px;
 	margin: 3% auto;
 }
 .gallery > img{
@@ -307,8 +317,17 @@ button{
 }
 
 @media screen and (max-width: 560px) {
+	nav a{
+	font-size: 1em;
+}
+	nav a:first-of-type{
+	display: none;
+}
+	h2{
+	font-size: 2.2em;
+}
 h3{
-	font-size: 2.7em;
+	font-size: 2.5em;
 }
 button{
 	font-size: 2.2em;
@@ -317,15 +336,32 @@ button{
 
 @media screen and (max-width: 360px) {
 header img{
-	width: 80px;
+	width: 120px;
 }
 h2{
-	font-size: 2.2em;
-}
-h3{
 	font-size: 2em;
 }
+nav{
+	padding: 0.2em 0.4em;
+}
+nav a:first-of-type{
+	display: none;
+}
+nav a:last-of-type{
+	position: fixed;
+	top: 400px;
+	padding: 0.4em;
+	transform: rotate(-90deg);
+	background-color: #FAAF33;
+}
+
 button{
-	font-size: 2em;
+	padding: 0.4em 0.8em;
+	font-size: 1.8em;
+}
+article{
+	height: 410px;
+	padding: 1.5em;
+	margin-bottom: 1em;
 }
 }
